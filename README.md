@@ -16,6 +16,8 @@ Vue icon components for [Zeit Design](https://zeit.co/design).
     install(Vue)
     ```
 
+<br/>
+
 ### Documentation
 
   - [zeit-vue-icons](https://zeit-vue-icons.now.sh/)
