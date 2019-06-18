@@ -2,13 +2,16 @@
 
 const makeComponent = (name, content, darkContent) => {
   return`<template>
-  ${darkContent.replace(/<svg/, '<svg v-if="dark"')}
-  ${content.replace(/<svg/, '<svg v-else')}
+  ${darkContent.replace(/<svg/, '<svg v-on="listeners" v-if="dark"')}
+  ${content.replace(/<svg/, '<svg v-on="listeners" v-else')}
 </template>
 <script>
 export default {
   name: '${name}',
   props: { dark: Boolean },
+  computed: {
+    listeners () { return { ...this.$listeners } }
+  },
 }
 </script>`
 }
