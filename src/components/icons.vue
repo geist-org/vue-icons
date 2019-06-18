@@ -36,7 +36,6 @@ export default {
 
   methods: {
     showCodes(name, isDark) {
-      name = `${name}-icon`
       this.exampleTitle = name
       const moduleName = this.format(name)
 
