@@ -24,7 +24,12 @@ const replaceVar = (str) => {
   return str
 }
 
-const hasReplaceKey = (str) => {
+const removeClass = str => {
+  return str
+    .replace(/(?<= )class=".*?"/g, '')
+}
+
+const hasReplaceKey = str => {
   return !!Object
     .keys(replaceKeyVal)
     .find(key => str.includes(key))
@@ -32,5 +37,6 @@ const hasReplaceKey = (str) => {
 
 module.exports = {
   replaceVar,
+  removeClass,
   hasReplaceKey,
 }
