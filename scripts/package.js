@@ -30,11 +30,11 @@ const compile = async () => {
   const files = fse.readdirSync(lightSources)
   const names = []
   await Promise.all(files.map(async name => {
-    const lightcontent = await fse.readFile(join(lightSources, name), 'utf-8')
-    const darkContent =await fse.readFile(join(darkSources, name), 'utf-8')
-    
+    const lightPath = join(lightSources, name)
+    const lightcontent = await fse.readFile(lightPath, 'utf-8')
+  
     const componentName = name.replace('.svg', '')
-    const component = makeComponent(componentName, lightcontent, darkContent)
+    const component = makeComponent(componentName, lightcontent)
     
     await fse.writeFile(join(target, `${componentName}.vue`), component)
     names.push(componentName)

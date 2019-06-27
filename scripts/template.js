@@ -1,16 +1,16 @@
 // zeit's svg is not standard, unable to fill uniformly.
+const utils = require('./utils')
 
-const makeComponent = (name, content, darkContent) => {
-  return`<template>
-  ${darkContent.replace(/<svg/, '<svg v-on="listeners" v-if="dark"')}
-  ${content.replace(/<svg/, '<svg v-on="listeners" v-else')}
-</template>
+const makeComponent = (name, content) => {
+  content = utils.replaceVar(content)
+  
+  return`<template>${content.replace(/<svg/, '<svg v-on="listeners"')}</template>
 <script>
 export default {
   name: '${name}',
   props: { dark: Boolean },
   computed: {
-    listeners () { return { ...this.$listeners } }
+    listeners() { return { ...this.$listeners } },
   },
 }
 </script>`
