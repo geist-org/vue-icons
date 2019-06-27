@@ -1,0 +1,13 @@
+<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+  <path stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="var(--geist-foreground)"
+        d="M17.25 9.74989H19.35C21.4198 9.67041 23.1639 11.2803 23.25 13.3499V15.1499C23.1639 17.2195 21.4198 18.8294 19.35 18.7499H17.25"></path>
+  <path stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="var(--geist-foreground)"
+        d="M17.25 8.2561V21.8561C17.2559 22.22 17.1169 22.5713 16.8638 22.8327C16.6106 23.0942 16.2639 23.2443 15.9 23.2501H5.1C4.34286 23.2375 3.73886 22.6143 3.75 21.8571V9.4571"></path>
+  <path stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="var(--geist-foreground)"
+        d="M8.25 14.8989V19.0769"></path>
+  <path stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="var(--geist-foreground)"
+        d="M12.75 12.8101V19.0771"></path>
+  <path fill-rule="evenodd" clip-rule="evenodd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+        stroke="var(--geist-foreground)"
+        d="M19.365 5.10009C19.0613 4.04922 18.2745 3.20625 17.247 2.83083C16.2196 2.45542 15.0747 2.59259 14.165 3.20009C13.4957 1.64247 11.9265 0.667094 10.2336 0.756385C8.5406 0.845676 7.08271 1.98071 6.581 3.60009C5.51243 2.55417 3.88956 2.32072 2.56951 3.02304C1.24946 3.72535 0.536253 5.20168 0.806573 6.67229C1.07689 8.14291 2.26848 9.26911 3.752 9.45609H3.758C3.77881 10.3821 4.17989 11.2588 4.86696 11.88C5.55403 12.5013 6.46653 12.8123 7.39 12.7401C8.53446 12.6142 9.54206 11.9291 10.08 10.9111C10.3082 10.5121 10.448 10.0688 10.49 9.61109C10.5552 8.83913 11.2033 8.24725 11.978 8.25209C13.721 8.25209 15.683 8.25909 17.256 8.25209C18.4263 8.27197 19.4097 7.37709 19.5 6.21009C19.5142 5.83527 19.4687 5.46057 19.365 5.10009Z"></path>
+</svg>

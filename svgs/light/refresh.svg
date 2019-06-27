@@ -1,9 +1,9 @@
-<svg width="20px" height="20px" viewBox="0 0 16 13" version="1.1" aria-label="refresh" xmlns="http://www.w3.org/2000/svg">
+<svg width="20px" height="20px" viewBox="0 0 16 13" aria-label="refresh" xmlns="http://www.w3.org/2000/svg">
   <g
     transform="translate(7.500000, 6.500000) rotate(90.000000) translate(-7.500000, -6.500000) translate(1.000000, -1.000000)"
     stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <path d="M6.934 1.314a6.5 6.5 0 1 0 4.288 2.019l-.662.756a5.5 5.5 0 1 1-3.626-1.773V1.315z" fill="#000"
-          fill-rule="nonzero"></path>
-    <polyline fill="#000" points="5.2002 4 7.2002 1.97487502 5.2002 0"></polyline>
+    <path d="M6.934 1.314a6.5 6.5 0 1 0 4.288 2.019l-.662.756a5.5 5.5 0 1 1-3.626-1.773V1.315z"
+      fill="var(--geist-foreground)" fill-rule="nonzero"></path>
+    <polyline fill="var(--geist-foreground)" points="5.2002 4 7.2002 1.97487502 5.2002 0"></polyline>
   </g>
 </svg>

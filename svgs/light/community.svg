@@ -1,0 +1,26 @@
+<svg width="20px" height="20px" viewBox="0 0 69 72" class="jsx-2607500074">
+  <defs class="jsx-2607500074">
+    <ellipse id="b" cx="30.5" cy="32" rx="30.5" ry="32" class="jsx-2607500074"></ellipse>
+    <filter id="a" width="126.2%" height="125%" x="-13.1%" y="-6.2%" filterUnits="objectBoundingBox"
+      class="jsx-2607500074">
+      <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1" class="jsx-2607500074"></feOffset>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"
+        class="jsx-2607500074"></feGaussianBlur>
+      <feColorMatrix in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"
+        class="jsx-2607500074"></feColorMatrix>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" class="jsx-2607500074">
+    <g fill-rule="nonzero" transform="translate(4)" class="jsx-2607500074">
+      <use fill="#000" fill-opacity="1" filter="url(#a)" xlink:href="#b" class="jsx-2607500074"></use>
+      <use fill="#FFF" xlink:href="#b" class="jsx-2607500074"></use>
+    </g>
+    <path fill="#000"
+      d="M34.5 44.0005c.5833 0 1.1566-.037 1.7223-.095l7.8089 4.096v-7.0821c3.4837-2.565 5.7188-6.4999 5.7188-10.9184C49.75 22.268 42.9223 16 34.5 16s-15.25 6.2685-15.25 14.001c0 7.7315 6.8277 13.9995 15.25 13.9995zM34.5 18c7.3696 0 13.3438 5.373 13.3438 12.0005 0 4.0645-2.2761 7.617-5.7193 9.7825L42.125 45l-5.7192-2.9985s.2811-.001-1.9058-.001c-7.3696 0-13.3438-5.3725-13.3438-11.9995C21.1562 23.373 27.1304 18 34.5 18z"
+      class="jsx-2607500074"></path>
+    <path stroke="#0076FF" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2" d="M27 26.9968158h15"
+      class="jsx-2607500074 "></path>
+    <path stroke="#0076FF" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2" d="M29 33.00025h10.997614"
+      class="jsx-2607500074 "></path>
+  </g>
+</svg>

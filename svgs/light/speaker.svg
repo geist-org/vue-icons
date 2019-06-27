@@ -1,6 +1,5 @@
-<svg width="20px" height="20px" viewBox="0 0 36 30" version="1.1" xmlns="http://www.w3.org/2000/svg"
-     aria-label="speaker">
+<svg width="20px" height="20px" viewBox="0 0 36 30" aria-label="speaker" xmlns="http://www.w3.org/2000/svg">
   <path
     d="M28.1 24.1v-1.8L15 20.4v4.9l-.2.3-.2.2h-.1l-.2.2H14 14h-.2L6.6 24a1 1 0 0 1-1-.8V19L2 18.6c-1 0-1.9-.9-1.9-1.9V7.4c0-1 .8-1.8 1.9-1.8L28 1.9V0H30V24.1h-1.9zM7.5 22.5l5.6 1.4v-3.7l-5.6-.8v3zM1.9 8.4v7.4c0 .5.4 1 1 1l19.6 3V4.3l-19.7 3a1 1 0 0 0-1 1zM28 4.6c0-.5-.4-.9-1-.9l-2.7.4V20l2.8.4c.5 0 1-.4 1-.9V4.6z"
-    fill="#000" fill-rule="nonzero"></path>
+    fill="var(--geist-foreground)" fill-rule="nonzero"></path>
 </svg>

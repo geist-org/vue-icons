@@ -1,0 +1,25 @@
+<svg width="20px" height="20px" viewBox="0 0 72 72" fill="none" class="jsx-3814420687" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#filter0_dsupport)" class="jsx-3814420687">
+    <circle cx="36" cy="32" r="32" fill="white" class="jsx-3814420687"></circle>
+  </g>
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M39.4874 36.3276C40.5164 36.5841 42.0179 36.9701 43.5059 37.3881C42.8059 37.8651 42.2084 38.4691 41.6919 39.1381C40.4824 38.8131 39.2129 38.4877 38.004 38.1977V35.0297C40.5119 33.3228 41.9979 29.6147 41.9979 26.2442C41.9979 21.6873 40.8319 17.9924 35.0015 17.9924C29.1711 17.9924 28.0051 21.6873 28.0051 26.2442C28.0051 29.6177 29.4931 33.3287 32.004 35.0341V38.2272C28.2231 39.1167 23.8327 40.3346 22.8227 40.8876C22.1692 41.7106 21.5982 44.351 22.0042 46.0015H40.2869C40.4709 46.7125 40.7514 47.3786 41.1114 47.9976H20.9027C19.3392 45.5996 19.9727 40.8005 21.5367 39.2025C22.2817 38.4415 27.8661 37.0016 30.5391 36.3461C27.7166 34.1537 25.9951 30.0863 25.9951 26.2083C25.9951 20.5704 27.6326 16 35.001 16C42.3699 16 44.0074 20.5704 44.0074 26.2083C44.0074 30.0753 42.2954 34.1306 39.4874 36.3276Z"
+    fill="black" class="jsx-3814420687"></path>
+  <path d="M44 43.5L45.7969 45.2969L51.0858 40.0081" stroke="#0076FF" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round" class="jsx-3814420687 "></path>
+  <defs class="jsx-3814420687">
+    <filter id="filter0_dsupport" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB" class="jsx-3814420687">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" class="jsx-3814420687"></feFlood>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+        class="jsx-3814420687"></feColorMatrix>
+      <feOffset dy="4" class="jsx-3814420687"></feOffset>
+      <feGaussianBlur stdDeviation="2" class="jsx-3814420687"></feGaussianBlur>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"
+        class="jsx-3814420687"></feColorMatrix>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" class="jsx-3814420687"></feBlend>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"
+        class="jsx-3814420687"></feBlend>
+    </filter>
+  </defs>
+</svg>

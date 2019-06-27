@@ -1,0 +1,11 @@
+<svg viewBox="0 0 226 200" height="20px" width="20px" aria-label="zeit" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="196.572434%" y1="228.815483%" x2="50%" y2="50%" id="logo-d-zeit">
+      <stop offset="0%" stop-color="var(--geist-background)"></stop>
+      <stop offset="100%" stop-color="var(--geist-foreground)"></stop>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-141, -156)">
+    <polygon fill="url(#logo-d-zeit)" points="254 156.459299 367 356 141 356 "></polygon>
+  </g>
+</svg>

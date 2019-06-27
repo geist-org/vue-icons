@@ -1,0 +1,23 @@
+<svg width="20px" height="20px" fill="none" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="36" cy="32" r="32" fill="#fff" filter="url(#filter_stress)"></circle>
+  <path
+    d="M36 49c-9.389 0-17-7.61-17-17s7.611-17 17-17 17 7.61 17 17-7.611 17-17 17zm0-31.875c-8.215 0-14.875 6.659-14.875 14.875 0 8.216 6.66 14.875 14.875 14.875S50.875 40.215 50.875 32c0-8.216-6.66-14.875-14.875-14.875z"
+    fill="#000"></path>
+  <path
+    d="M46.188 31.625c-.587 0-1.056-.478-1.129-1.06a8.502 8.502 0 0 0-16.868 0c-.073.582-.542 1.06-1.128 1.06-.587 0-1.069-.477-1.01-1.06.532-5.37 5.062-9.565 10.572-9.565 5.51 0 10.04 4.194 10.573 9.564.058.584-.424 1.061-1.01 1.061z"
+    fill="#007AFF"></path>
+  <path
+    d="M36.285 36.167c.009.006.011.014.02.02l6.162-4.341c.475-.334 1.218-.235 1.66.222.44.457.413 1.099-.063 1.434l-6.417 4.518c.233.832.154 1.746-.338 2.537a3.188 3.188 0 1 1-1.024-4.39zM34.04 39.78a1.063 1.063 0 1 0 1.121-1.806 1.063 1.063 0 0 0-1.121 1.806z"
+    fill="#000"></path>
+  <defs>
+    <filter id="filter_stress" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+      <feOffset dy="4"></feOffset>
+      <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"></feColorMatrix>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+    </filter>
+  </defs>
+</svg>
