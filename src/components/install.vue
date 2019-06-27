@@ -12,10 +12,9 @@ zi-card.install
 <script>
 import Prism from 'vue-prism-component'
 
-
 export default {
   data: () => ({
-    code: `\<script src="https://cdn.jsdelivr.net/npm/@zeit-ui/vue-icons@latest/dist/index.umd.min.js"><\/script>`
+    code: '\<script src="https://cdn.jsdelivr.net/npm/@zeit-ui/vue-icons@latest/dist/index.umd.min.js"><\/script>',
   }),
 
   components: { Prism },

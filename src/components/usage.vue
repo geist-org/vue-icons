@@ -14,7 +14,7 @@ zi-card.usage
 <script>
 import Prism from 'vue-prism-component'
 
-const code = `<script>
+const code = `\<script>
 import addTeamIcon from '@zeit-ui/vue-icons/packages/add-team'
 
 export default {

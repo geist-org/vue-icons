@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "vue-cli-service serve",
+    "lint": "xo",
     "build": "yarn icons && vue-cli-service build",
     "icons": "node scripts/package.js",
     "build:lib": "vue-cli-service build --target lib --name index ./packages/index.js",
@@ -28,7 +29,10 @@
     ],
     "rules": {
       "vue/no-side-effects-in-computed-properties": true,
-      "prefer-object-spread": 0
+      "prefer-object-spread": 0,
+      "no-useless-escape": 0,
+      "template-curly-spacing": 0,
+      "import/extensions": 0
     },
     "extensions": [
       "vue",
@@ -36,7 +40,9 @@
     ],
     "ignore": [
       "scripts",
-      "packages"
+      "packages",
+      "svgs",
+      "public/prism.js"
     ]
   },
   "devDependencies": {
