@@ -2,14 +2,13 @@
 const utils = require('./utils')
 
 const makeComponent = (name, content) => {
-  content = utils.replaceVar(content)
+  // content = utils.replaceVar(content)
   content = utils.removeClass(content)
   
   return`<template>${content.replace(/<svg/, '<svg v-on="listeners"')}</template>
 <script>
 export default {
   name: '${name}',
-  props: { dark: Boolean },
   computed: {
     listeners() { return { ...this.$listeners } },
   },

@@ -1,6 +1,6 @@
 <script>
 export default {
-  props: ['name', 'is-dark'],
+  props: ['name'],
 
   computed: {
     tag() {
@@ -10,7 +10,7 @@ export default {
   },
 
   render(h) {
-    return h(this.tag, { props: { dark: this.isDark || false } })
+    return h(this.tag)
   },
 }
 </script>
