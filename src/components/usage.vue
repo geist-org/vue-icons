@@ -4,6 +4,7 @@ zi-card.usage
   p Simply import a single #[code IconComponent] can reduce the volumes of bundle, all components support tree-shaking.
   | (you should import theme package before. #[code @zeit-ui/themes] ≈≈ 1kb)
   br
+  br
   .zi-comment IMPORT ALL IN ENTRY FILE
   Prism(language="javascript") {{ entryCode }}
   p
