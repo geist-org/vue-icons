@@ -6,7 +6,7 @@ on:
     - published
   push:
     tags:
-    - '!*'
+    - '*'
 
 jobs:
   build:
