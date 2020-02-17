@@ -43,7 +43,7 @@ export default {
       const el = this.$refs.bar.$el
       if (!next) return el.removeAttribute('style')
       el.setAttribute('style', `width: ${el.offsetWidth}px;`)
-    }
+    },
   },
 }
 </script>

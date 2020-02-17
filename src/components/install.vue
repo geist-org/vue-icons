@@ -16,8 +16,8 @@ import Prism from 'vue-prism-component'
 
 export default {
   data: () => ({
-    code: '\<link href="https://cdn.jsdelivr.net/npm/@zeit-ui/themes@latest/index.css" rel="stylesheet">\n' +
-      '\<script src="https://cdn.jsdelivr.net/npm/@zeit-ui/vue-icons@latest/dist/index.umd.min.js"><\/script>',
+    code: '\<link href="https://cdn.jsdelivr.net/npm/@zeit-ui/themes@latest/index.css" rel="stylesheet">\n'
+      + '\<script src="https://cdn.jsdelivr.net/npm/@zeit-ui/vue-icons@latest/dist/index.umd.min.js"><\/script>',
   }),
 
   components: { Prism },
