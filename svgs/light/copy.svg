@@ -1,6 +1,0 @@
-<svg width="20px" height="20px" viewBox="0 0 13 15" aria-label="copy" xmlns="http://www.w3.org/2000/svg">
-  <g fill="var(--geist-background)" stroke="var(--geist-foreground)" fill-rule="nonzero" stroke-width="1">
-    <rect x="0.5" y="0.5" width="9" height="11" rx="1.5"></rect>
-    <rect x="3.5" y="3.5" width="9" height="11" rx="1.5"></rect>
-  </g>
-</svg>

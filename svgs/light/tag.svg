@@ -1,9 +1,0 @@
-<svg width="20px" height="20px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <path d="M3.5 0.5L8.5 1.5L15.5 8.5L8.5 15.5L1.5 8.5L0.5 3.5L3.5 0.5Z" stroke-miterlimit="10" stroke-linecap="round"
-      stroke-linejoin="round" stroke="var(--geist-foreground)"></path>
-    <path
-      d="M5.5 5C5.5 5.27614 5.27614 5.5 5 5.5C4.72386 5.5 4.5 5.27614 4.5 5C4.5 4.72386 4.72386 4.5 5 4.5C5.27614 4.5 5.5 4.72386 5.5 5Z"
-      stroke="var(--geist-foreground)"></path>
-  </g>
-</svg>
