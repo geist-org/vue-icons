@@ -1,5 +1,5 @@
 ## vue-icons
-Vue icon components for [Zeit Design](https://zeit.co/design). 
+Vue icon components for [Zeit Design](https://zeit.co/design).
 
 `vue-icons` is a high quality icon library, all components are displayed by `svg`.
 
@@ -7,11 +7,13 @@ Vue icon components for [Zeit Design](https://zeit.co/design).
 
 ### Usage
 
-1. install: `yarn add @zeit-ui/vue-icons`.
+1. install: `yarn add @zeit-ui/themes @zeit-ui/vue-icons`.
 
-2. import all: 
+2. import all:
     ```js
+    import '@zeit-ui/themes/index.css'
     import { install } from '@zeit-ui/vue-icons'
+    import Vue from 'vue'
     
     install(Vue)
     ```
@@ -21,8 +23,8 @@ Vue icon components for [Zeit Design](https://zeit.co/design).
 ### Documentation
 
   - [zeit-vue-icons](https://zeit-vue-icons.now.sh/)
-  
-  
+
+
 <br/>
 
 ### LICENSE
