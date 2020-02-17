@@ -30,5 +30,5 @@ export default {
 
 <style lang="stylus" scoped>
 .usage
-  margin-top 15px
+  margin-top 35px
 </style>
