@@ -1,7 +1,6 @@
-<svg height="20px" width="20px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-  <g fill="var(--geist-foreground)">
-    <path
-      d="M22.375,2A8.351,8.351,0,0,0,16,4.9,8.351,8.351,0,0,0,9.625,2,8.673,8.673,0,0,0,1,10.7c0,8.139,13.781,19.645,14.437,20.113A.691.691,0,0,0,16,31a1.012,1.012,0,0,0,.563-.187C17.219,30.345,31,18.745,31,10.7A8.673,8.673,0,0,0,22.375,2Z"
-      fill="var(--geist-foreground)" stroke="transparent" stroke-width="2"></path>
-  </g>
+<svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+  stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color:var(--geist-foreground)">
+  <path
+    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+    fill="var(--geist-fill)"/>
 </svg>

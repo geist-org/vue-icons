@@ -1,5 +1,5 @@
-<svg width="20px" height="20px" viewBox="0 0 8 12" aria-label="pause" xmlns="http://www.w3.org/2000/svg">
-  <g fill="var(--geist-foreground)" fill-rule="nonzero">
-    <path d="M0 0h3v12H0zM5 0h3v12H5z"></path>
-  </g>
+<svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+  stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color:var(--geist-foreground)">
+  <rect x="6" y="4" width="4" height="16" fill="var(--geist-fill)"/>
+  <rect x="14" y="4" width="4" height="16" fill="var(--geist-fill)"/>
 </svg>

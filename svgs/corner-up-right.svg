@@ -1,0 +1,5 @@
+<svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+  stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color:var(--geist-foreground)">
+  <path d="M15 14l5-5-5-5"/>
+  <path d="M4 20v-7a4 4 0 014-4h12"/>
+</svg>

@@ -1,5 +1,6 @@
-<svg width="20px" height="20px" viewBox="0 0 36 30" aria-label="speaker" xmlns="http://www.w3.org/2000/svg">
-  <path
-    d="M28.1 24.1v-1.8L15 20.4v4.9l-.2.3-.2.2h-.1l-.2.2H14 14h-.2L6.6 24a1 1 0 0 1-1-.8V19L2 18.6c-1 0-1.9-.9-1.9-1.9V7.4c0-1 .8-1.8 1.9-1.8L28 1.9V0H30V24.1h-1.9zM7.5 22.5l5.6 1.4v-3.7l-5.6-.8v3zM1.9 8.4v7.4c0 .5.4 1 1 1l19.6 3V4.3l-19.7 3a1 1 0 0 0-1 1zM28 4.6c0-.5-.4-.9-1-.9l-2.7.4V20l2.8.4c.5 0 1-.4 1-.9V4.6z"
-    fill="var(--geist-foreground)" fill-rule="nonzero"></path>
+<svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+  stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color:var(--geist-foreground)">
+  <rect x="4" y="2" width="16" height="20" rx="2" ry="2"/>
+  <circle cx="12" cy="14" r="4"/>
+  <path d="M12 6h.01"/>
 </svg>
