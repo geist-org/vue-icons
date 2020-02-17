@@ -1,10 +1,11 @@
 <template lang="pug">
 div.icons
-  p.toggle(@click="toggleTheme") {{ isDark ? 'DARK_ON' : 'DARK_OFF' }}
+  vi-bar(v-model="keyword")
   .zf-grid
     template(v-for="name in names")
-      .zi-card.zf-card(@click="showCodes(name)")
+      .zi-card.zf-card(@click="showCodes(name)" hoverable)
         vi-icon(:name="name")
+        span.zf-card-desc {{ name }}
   br
   zi-dialog(v-model="visible" :title="exampleTitle" done="ok!")
     .zi-comment IMPORT A COMPONENT
@@ -22,6 +23,7 @@ export default {
   components: { Prism },
 
   data: () => ({
+    keyword: '',
     names: data,
     visible: false,
     exampleTitle: '',
@@ -29,6 +31,12 @@ export default {
     multiCodes: '',
     isDark: false,
   }),
+
+  watch: {
+    keyword(next) {
+      this.names = data.filter(name => name.includes(next))
+    },
+  },
 
   methods: {
     showCodes(name) {
@@ -44,12 +52,8 @@ export default {
 }
 <\/script>
 
-<template>
-  <${moduleName}/>
-</template>`
-      this.multiCodes = `<template>
-  <${name}/>
-</template>`
+<template><${moduleName}/></template>`
+      this.multiCodes = `<${name}/>`
       this.visible = true
     },
 
@@ -62,13 +66,6 @@ export default {
           return `${pre}${firstUpChar}${current.slice(1, current.length)}`
         }, '')
     },
-
-    toggleTheme() {
-      const html = document.querySelector('html')
-      this.isDark = html.classList.contains('dark-theme')
-      const next = this.isDark ? '' : 'dark-theme'
-      html.setAttribute('class', next)
-    },
   },
 }
 </script>
@@ -76,6 +73,7 @@ export default {
 <style scoped lang="stylus">
 .icons
   margin-top 35px
+  min-height 100vh
 
 .toggle
   cursor pointer

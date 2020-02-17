@@ -3,26 +3,34 @@
 @import "~@zeit-ui/themes/dark.css"
 
 .zf-layout
-  max-width 700px
+  max-width 920px
 
 .zf-card
   display inline-flex
-  padding 18px
+  padding 18px 0
+  flex-direction column
   justify-content center
   align-items center
   justify-self center
   align-self center
-  width 60px
-  height 60px
+  width 105px
+  height 95px
+  cursor pointer
   background-color var(--geist-background)
+
+  .zf-card-desc
+    color var(--geist-secondary)
+    margin-top 15px
+    white-space nowrap
+    font-size 12px
 
 .zf-grid
   display grid
-  width 100%
+  width 900px
   height 100%
   font-size 1rem
-  grid-auto-rows minmax(100px, auto)
-  grid-template-columns repeat(auto-fill, minmax(90px, 1fr))
+  grid-auto-rows minmax(120px, auto)
+  grid-template-columns repeat(auto-fill, minmax(120px, 1fr))
 
 .zf-title
   margin 10px 0
