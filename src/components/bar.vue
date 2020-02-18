@@ -30,7 +30,6 @@ export default {
   },
 
   mounted() {
-    console.log(this.$refs.bar.$el.offsetWidth)
     document.addEventListener('scroll', () => {
       this.fixed = window.scrollY > 1210
       this.setWidth(this.fixed)
