@@ -8,7 +8,7 @@ const makeComponent = (name, content) => {
   return`<template>${content.replace(/<svg/, '<svg v-on="listeners"')}</template>
 <script>
 export default {
-  name: '${name}',
+  name: 'zicon-${name}',
   computed: {
     listeners() { return { ...this.$listeners } },
   },
