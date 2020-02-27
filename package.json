@@ -9,7 +9,7 @@
     "icons": "node scripts/package.js",
     "build:lib": "vue-cli-service build --target lib --name index ./packages/index.js",
     "release": "yarn icons && yarn build:lib && yarn publish --access public --non-interactive",
-    "now-build": "yarn build"
+    "now-build": "yarn build && cp -R dist public"
   },
   "main": "packages/index.js",
   "module": "packages/index.js",

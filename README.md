@@ -22,7 +22,7 @@ Vue icon components for [Zeit Design](https://zeit.co/design).
 
 ### Documentation
 
-  - [zeit-vue-icons](https://zeit-vue-icons.now.sh/)
+  - [vue-icons](https://vue-icons.zeit-ui.co/)
 
 
 <br/>
