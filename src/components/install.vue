@@ -8,7 +8,6 @@ zi-card.install
   br
   .zi-comment WITH CDN LINK
   Prism {{ code }}
-  br
 </template>
 
 <script>
