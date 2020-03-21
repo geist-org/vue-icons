@@ -53,7 +53,7 @@ export default {
 <\/script>
 
 <template><${moduleName}/></template>`
-      this.multiCodes = `<zicon-${name}/>`
+      this.multiCodes = `<${name}-icon />`
       this.visible = true
     },
 
