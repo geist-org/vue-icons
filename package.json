@@ -50,7 +50,7 @@
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
     "@zeit-ui/themes": "^0.1.0",
-    "@zeit-ui/vue": "^2.0.1",
+    "@zeit-ui/vue": "^2.3.4",
     "babel-eslint": "^10.0.1",
     "core-js": "^2.6.5",
     "eslint-config-lambdas": "^0.0.11",
@@ -63,5 +63,8 @@
     "vue-prism-component": "^1.1.1",
     "vue-template-compiler": "^2.6.10",
     "xo": "^0.24.0"
+  },
+  "dependencies": {
+    "@zeit-ui/vue-icons": "^3.0.0"
   }
 }
