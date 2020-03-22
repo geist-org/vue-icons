@@ -8,6 +8,7 @@ zi-card.usage
   .zi-comment IMPORT ALL IN ENTRY FILE
   Prism(language="javascript") {{ entryCode }}
   p
+  p #[zi-link(href="https://github.com/zeit-ui/vue-icons/tree/master/examples") You can also refer to these examples].
 </template>
 
 <script>
