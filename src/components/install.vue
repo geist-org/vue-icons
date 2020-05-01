@@ -1,12 +1,13 @@
 <template lang="pug">
 zi-card.install
-  h2 Install
+  h3 Install
+  zi-spacer
   p #[code @zeit-ui/vue-icons] depends on the theme of #[a(target="_blank" href="https://github.com/zeit-ui/themes") @zeit-ui/themes].
-  br
-  .zi-comment WITH NPM PACKAGE
+  zi-spacer
+  p 1. With NPM package
   Prism(language="shell") yarn add @zeit-ui/themes @zeit-ui/vue-icons
   br
-  .zi-comment WITH CDN LINK
+  p 2. With CDN link
   Prism {{ code }}
 </template>
 
