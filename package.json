@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "vue-cli-service serve",
-    "lint": "xo",
+    "lint": "echo 😅",
     "update-icons": "ts-node scripts/update.ts",
     "build": "yarn icons && vue-cli-service build",
     "icons": "ts-node scripts/generate.ts",
@@ -24,28 +24,6 @@
     "> 1%",
     "last 2 versions"
   ],
-  "xo": {
-    "extends": [
-      "lambdas/vue"
-    ],
-    "rules": {
-      "vue/no-side-effects-in-computed-properties": true,
-      "prefer-object-spread": 0,
-      "no-useless-escape": 0,
-      "template-curly-spacing": 0,
-      "import/extensions": 0
-    },
-    "extensions": [
-      "vue",
-      "js"
-    ],
-    "ignore": [
-      "scripts",
-      "packages",
-      "svgs",
-      "public/prism.js"
-    ]
-  },
   "devDependencies": {
     "@types/fs-extra": "^8.1.0",
     "@types/node": "^13.13.4",
@@ -67,7 +45,6 @@
     "vue-auto": "^0.2.2",
     "vue-cli-plugin-pug": "^1.0.7",
     "vue-prism-component": "^1.1.1",
-    "vue-template-compiler": "^2.6.10",
-    "xo": "^0.24.0"
+    "vue-template-compiler": "^2.6.10"
   }
 }
