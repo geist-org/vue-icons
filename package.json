@@ -37,6 +37,7 @@
     "fs-extra": "^9.0.0",
     "jsdom": "^16.2.2",
     "node-fetch": "^2.6.0",
+    "prismjs": "^1.20.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "ts-node": "^8.9.1",
