@@ -5,7 +5,7 @@ zi-card.install
   p #[code @zeit-ui/vue-icons] depends on the theme of #[a(target="_blank" href="https://github.com/zeit-ui/themes") @zeit-ui/themes].
   zi-spacer
   p 1. With NPM package
-  Prism(language="shell") yarn add @zeit-ui/themes @zeit-ui/vue-icons
+  Prism yarn add @zeit-ui/themes @zeit-ui/vue-icons
   br
   p 2. With CDN link
   Prism {{ code }}
