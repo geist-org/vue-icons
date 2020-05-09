@@ -31,9 +31,6 @@ export const parseStyles = (inlineStyle = '') => {
 }
 
 export const parseSvg = (svg: string) => {
-  // Reactify attrs
-  svg = svg.replace(/-([a-z])/g, (g) => g[1].toUpperCase())
-  
   // Inject props
   svg = svg.replace(/<svg([^>]+)>/, `<svg$1 v-on="listeners" :style="styles">`)
   
