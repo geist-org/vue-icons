@@ -6,9 +6,9 @@
     "start": "vue-cli-service serve",
     "lint": "echo 😅",
     "update-icons": "ts-node scripts/update.ts",
-    "build": "yarn icons && vue-cli-service build",
+    "build": "node scripts/build-check.js && yarn icons && vue-cli-service build",
     "icons": "ts-node scripts/generate.ts",
-    "build:lib": "vue-cli-service build --target lib --name index ./packages/index.js",
+    "build:lib": "node scripts/build-check.js && vue-cli-service build --target lib --name index ./packages/index.js",
     "release": "yarn icons && yarn build:lib && yarn publish --access public --non-interactive",
     "now-build": "yarn build && cp -R dist public"
   },
@@ -27,12 +27,12 @@
   "devDependencies": {
     "@types/fs-extra": "^8.1.0",
     "@types/node": "^13.13.4",
-    "@vue/cli-plugin-babel": "^3.8.0",
-    "@vue/cli-service": "^3.8.0",
+    "@vue/cli-plugin-babel": "^4.4.4",
+    "@vue/cli-service": "^4.4.4",
     "@zeit-ui/themes": "^0.1.0",
-    "@zeit-ui/vue": "^2.4.0",
+    "@zeit-ui/vue": "^2.5.0-canary.2",
     "babel-eslint": "^10.0.1",
-    "core-js": "^2.6.5",
+    "core-js": "^3.6.5",
     "eslint-config-lambdas": "^0.0.11",
     "fs-extra": "^9.0.0",
     "jsdom": "^16.2.2",
@@ -48,6 +48,6 @@
     "vue-auto": "^0.2.2",
     "vue-cli-plugin-pug": "^1.0.7",
     "vue-prism-component": "^1.1.1",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.11"
   }
 }
