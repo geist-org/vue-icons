@@ -32,7 +32,12 @@ export const parseStyles = (inlineStyle = '') => {
 
 export const parseSvg = (svg: string) => {
   // Inject props
-  svg = svg.replace(/<svg([^>]+)>/, `<svg$1 v-on="listeners" :style="styles">`)
+  svg = svg
+    .replace(/<svg([^>]+)>/, `<svg$1 v-on="listeners" v-bind="attrs" :style="styles">`)
+    .replace('viewBox="0 0 24 24"', '')
+    .replace('shape-rendering="geometricPrecision"', '')
+    .replace('width="24"', '')
+    .replace('height="24"', '')
   
   return svg
 }
