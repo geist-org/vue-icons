@@ -38,6 +38,6 @@ export const parseSvg = (svg: string) => {
     .replace('shape-rendering="geometricPrecision"', '')
     .replace('width="24"', '')
     .replace('height="24"', '')
-  
+    .replace(/ +(?= )/g, '');
   return svg
 }
