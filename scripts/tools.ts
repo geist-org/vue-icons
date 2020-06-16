@@ -1,5 +1,5 @@
 export const toHumpName = (name: string): string => {
-  return name.replace(/-(.)/g, (g) => g[1].toUpperCase())
+  return name.replace(/-(.)/g, g => g[1].toUpperCase())
 }
 
 export const toComponentName = (name: string): string => {
@@ -8,11 +8,7 @@ export const toComponentName = (name: string): string => {
   return `${first}${last}`
 }
 
-export const replaceAll = (
-  target: string,
-  find: string,
-  replace: string,
-): string => {
+export const replaceAll = (target: string, find: string, replace: string): string => {
   return target.split(find).join(replace)
 }
 
@@ -21,7 +17,7 @@ export const parseStyles = (inlineStyle = '') => {
     const [property, value] = stylePropertyValue
       .split(/^([^:]+):/)
       .filter((val, i) => i > 0)
-      .map((item) => item.trim().toLowerCase())
+      .map(item => item.trim().toLowerCase())
     styleObject[property] = value
     return styleObject
   }, {})
@@ -31,13 +27,10 @@ export const parseStyles = (inlineStyle = '') => {
 }
 
 export const parseSvg = (svg: string) => {
-  // Inject props
   svg = svg
     .replace(/<svg([^>]+)>/, `<svg$1 v-on="listeners" v-bind="attrs" :style="styles">`)
-    .replace('viewBox="0 0 24 24"', '')
-    .replace('shape-rendering="geometricPrecision"', '')
-    .replace('width="24"', '')
-    .replace('height="24"', '')
-    .replace(/ +(?= )/g, '');
+    .replace('var(--geist-fill)', 'currentColor')
+    .replace('var(--geist-stroke)', 'var(--geist-background)')
+    .replace(/ +(?= )/g, '')
   return svg
 }
