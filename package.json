@@ -1,6 +1,6 @@
 {
   "name": "@zeit-ui/vue-icons",
-  "version": "3.1.0-rc.3",
+  "version": "3.1.0-rc.4",
   "license": "MIT",
   "scripts": {
     "start": "vue-cli-service serve",
