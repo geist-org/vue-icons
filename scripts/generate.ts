@@ -53,11 +53,6 @@ export default (async () => {
       const svg = icon.querySelector('svg')
       const svgo = new SVGO(svgoConfigs)
       const { data: optimizedSvgString } = await svgo.optimize(svg.outerHTML)
-      if (name === 'battery') {
-        console.log(svg.outerHTML, '\n', optimizedSvgString)
-        console.log('\n')
-      }
-
       const component = `<template>${parseSvg(optimizedSvgString)}</template>
 <script>
 import { props, computed } from './mixin'
