@@ -31,7 +31,7 @@ export default {
 
   mounted() {
     document.addEventListener('scroll', () => {
-      this.fixed = window.scrollY > 1210
+      this.fixed = window.scrollY > 1500
       this.setWidth(this.fixed)
     })
   },

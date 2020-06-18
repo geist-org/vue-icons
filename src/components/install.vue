@@ -1,13 +1,12 @@
 <template lang="pug">
 zi-card.install
   h3 Install
-  zi-spacer
   p #[code @zeit-ui/vue-icons] depends on the theme of #[a(target="_blank" href="https://github.com/zeit-ui/themes") @zeit-ui/themes].
   zi-spacer
-  p 1. With NPM package
+  li(style="margin-bottom: -10px") With NPM
   Prism yarn add @zeit-ui/themes @zeit-ui/vue-icons
-  br
-  p 2. With CDN link
+  zi-spacer
+  li(style="margin-bottom: -10px") With CDN
   Prism {{ code }}
 </template>
 

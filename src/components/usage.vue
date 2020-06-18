@@ -1,16 +1,15 @@
 <template lang="pug">
 zi-card.usage
   h3 Usage
-  zi-spacer
   p Simply import a single #[code IconComponent] can reduce the volumes of bundle, all components support tree-shaking.
-  | (you should import theme package before. #[code @zeit-ui/themes] ≈≈ 1kb)
-  zi-spacer(y="2")
+    | (you should import theme package before. #[code @zeit-ui/themes] ≈≈ 1kb)
+  zi-spacer(y="1")
   p Use #[zi-code @zeit-ui/vue-icons] only:
   Prism(language="javascript") {{ entryCode }}
-  zi-spacer(y="2")
+  zi-spacer(y="1")
   p Use with #[zi-code @zeit-ui/vue]:
   Prism(language="javascript") {{ entryCode2 }}
-  zi-spacer(y="2")
+  zi-spacer(y="1")
   p Support #[zi-code color] and #[zi-code size] props:
   Prism(language="html") {{ svgCodes }}
 </template>
