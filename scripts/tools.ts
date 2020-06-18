@@ -13,24 +13,30 @@ export const replaceAll = (target: string, find: string, replace: string): strin
 }
 
 export const parseStyles = (inlineStyle = '') => {
-  const styles = inlineStyle.split(';').reduce((styleObject, stylePropertyValue) => {
-    const [property, value] = stylePropertyValue
+  return inlineStyle.split(';').reduce((styleObject, stylePropertyValue) => {
+    // extract the style property name and value
+    let [property, value] = stylePropertyValue
       .split(/^([^:]+):/)
       .filter((val, i) => i > 0)
       .map(item => item.trim().toLowerCase())
+
     styleObject[property] = value
     return styleObject
   }, {})
-  return JSON.stringify(styles)
-    .replace('"var(--geist-foreground)"', 'this.color || "currentColor"')
-    .replace('currentcolor', 'currentColor')
 }
 
-export const parseSvg = (svg: string) => {
+export const parseSvg = (svg: string, styles: any) => {
+  const getSpecifiedColorVar = (val: string | undefined) => {
+    if (!val) return '""'
+    return val.includes('current') ? 'currentColor' : 'var(--geist-background)'
+  }
+  const geistFillColor = getSpecifiedColorVar(styles['--geist-fill'])
+  const geistStrokeColor = getSpecifiedColorVar(styles['--geist-stroke'])
   svg = svg
     .replace(/<svg([^>]+)>/, `<svg$1 v-on="listeners" v-bind="attrs" :style="styles">`)
-    .replace('var(--geist-fill)', 'currentColor')
-    .replace('var(--geist-stroke)', 'var(--geist-background)')
+    .replace('var(--geist-fill)', geistFillColor)
+    .replace('var(--geist-stroke)', geistStrokeColor)
     .replace(/ +(?= )/g, '')
+
   return svg
 }

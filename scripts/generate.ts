@@ -3,7 +3,7 @@ import fs from 'fs-extra'
 import path from 'path'
 import SVGO from 'svgo/lib/svgo'
 import svgoConfigs from './svgo.config'
-import { toHumpName, parseSvg } from './tools'
+import { toHumpName, parseSvg, parseStyles } from './tools'
 
 const outputDir = path.join(__dirname, '../', 'packages')
 const exampleDataFilePath = path.join(__dirname, '../src/assets/data.json')
@@ -53,7 +53,8 @@ export default (async () => {
       const svg = icon.querySelector('svg')
       const svgo = new SVGO(svgoConfigs)
       const { data: optimizedSvgString } = await svgo.optimize(svg.outerHTML)
-      const component = `<template>${parseSvg(optimizedSvgString)}</template>
+      const styles = parseStyles(svg.getAttribute('style'))
+      const component = `<template>${parseSvg(optimizedSvgString, styles)}</template>
 <script>
 import { props, computed } from './mixin'
 export default {
