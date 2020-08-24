@@ -1,6 +1,6 @@
 {
   "name": "@geist-ui/vue-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "start": "vue-cli-service serve",
@@ -29,7 +29,7 @@
     "@types/node": "^13.13.4",
     "@vue/cli-plugin-babel": "^4.4.4",
     "@vue/cli-service": "^4.4.4",
-    "@geist-ui/themes": "^0.1.0",
+    "@geist-ui/themes": "^1.0.1",
     "@geist-ui/vue": "1.0.0",
     "babel-eslint": "^10.0.1",
     "core-js": "^3.6.5",
