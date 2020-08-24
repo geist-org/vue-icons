@@ -7,12 +7,12 @@ Vue icon components for [Vercel Design](https://vercel.com/design).
 
 ### Usage
 
-1. install: `yarn add @zeit-ui/themes @zeit-ui/vue-icons`.
+1. install: `yarn add @geist-ui/themes @geist-ui/vue-icons`.
 
 2. import all:
     ```js
-    import '@zeit-ui/themes/index.css'
-    import { install } from '@zeit-ui/vue-icons'
+    import '@geist-ui/themes/index.css'
+    import { install } from '@geist-ui/vue-icons'
     import Vue from 'vue'
     
     install(Vue)
@@ -22,7 +22,7 @@ Vue icon components for [Vercel Design](https://vercel.com/design).
 
 ### Documentation
 
-  - [vue-icons](https://vue-icons.zeit-ui.co/)
+  - [vue-icons](https://vue-icons.geist-ui.dev/)
 
 
 <br/>

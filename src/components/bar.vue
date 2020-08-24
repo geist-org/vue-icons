@@ -14,7 +14,7 @@ zi-col
 </template>
 
 <script>
-import ZeitUI from '@zeit-ui/vue'
+import GeistUI from '@geist-ui/vue'
 
 export default {
   data: () => ({
@@ -24,8 +24,8 @@ export default {
 
   watch: {
     dark(next) {
-      if (next) return ZeitUI.theme.enableDark()
-      ZeitUI.theme.enableLight()
+      if (next) return GeistUI.theme.enableDark()
+      GeistUI.theme.enableLight()
     },
   },
 

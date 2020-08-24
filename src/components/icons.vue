@@ -44,7 +44,7 @@ export default {
       const moduleName = this.format(name)
 
       this.signleCodes = `<script>
-import ${moduleName} from '@zeit-ui/vue-icons/packages/${name}'
+import ${moduleName} from '@geist-ui/vue-icons/packages/${name}'
 
 export default {
   name: 'my-example',

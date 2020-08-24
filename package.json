@@ -1,6 +1,6 @@
 {
-  "name": "@zeit-ui/vue-icons",
-  "version": "3.1.0",
+  "name": "@geist-ui/vue-icons",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "start": "vue-cli-service serve",
@@ -29,8 +29,8 @@
     "@types/node": "^13.13.4",
     "@vue/cli-plugin-babel": "^4.4.4",
     "@vue/cli-service": "^4.4.4",
-    "@zeit-ui/themes": "^0.1.0",
-    "@zeit-ui/vue": "^2.5.0-canary.2",
+    "@geist-ui/themes": "^0.1.0",
+    "@geist-ui/vue": "1.0.0",
     "babel-eslint": "^10.0.1",
     "core-js": "^3.6.5",
     "eslint-config-lambdas": "^0.0.11",
