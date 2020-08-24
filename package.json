@@ -1,6 +1,6 @@
 {
   "name": "@geist-ui/vue-icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "scripts": {
     "start": "vue-cli-service serve",

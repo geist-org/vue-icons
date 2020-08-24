@@ -1,5 +1,5 @@
 ## vue-icons
-Vue icon components for [Vercel Design](https://vercel.com/design).
+Vue icon components for Geist UI.
 
 `vue-icons` is a high quality icon library, all components are displayed by `svg`.
 
